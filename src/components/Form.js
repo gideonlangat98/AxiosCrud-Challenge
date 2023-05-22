@@ -39,7 +39,7 @@ function Form ({onAddUser}) {
                  onChange={(e) => setEmail(e.target.value)}
                  className='border border-gray-400 rounded-md px-2 py-1 mx-1' 
                 />
-                <button type='submit' className='border border-gray-400 rounded-md px-4 py-2'>Create</button>
+                <button type='submit' className='border border-gray-400 rounded-md px-2 py-1 bg-fuchsia-500 text-white'>Create</button>
             </form>
         </div>
     </div>
