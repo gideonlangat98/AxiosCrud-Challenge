@@ -25,19 +25,19 @@ function Form ({onAddUser}) {
 
   return (
     <div>
-        <p className='font-bold'>CRUD with Axios and React</p>
+        <p className='font-bold my-2'>CRUD with Axios and React</p>
         <div>
             <form onSubmit={handleSubmit} className='my-4'>
                 <input type='text' value={name}
                  placeholder='Name' 
                  onChange={(e) => setName(e.target.value)} 
-                 className='border border-gray rounded-md p-2'
+                 className='border border-gray rounded-md px-2 py-1 mx-1'
                 />
                 
                 <input type='text' value={email}
                  placeholder='Email' 
                  onChange={(e) => setEmail(e.target.value)}
-                 className='border border-gray-400 rounded-md p-2' 
+                 className='border border-gray-400 rounded-md px-2 py-1 mx-1' 
                 />
                 <button type='submit' className='border border-gray-400 rounded-md px-4 py-2'>Create</button>
             </form>
